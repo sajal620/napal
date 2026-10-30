@@ -1,25 +1,67 @@
 #EXTM3U
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Himalaya TV
-http://103.213.31.243:8081/livepull/ottHIMALAYA480.stream/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Indigenous Television (720p)
-https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Janata TV (1080p) [Not 24/7]
-https://streaming.tvnepal.com:19360/janatatv/janatatv.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Kantipur Max
-http://ktvlive.ekantipur.com/2436ea84aec1e4993c0f963f58188467/maxhd/hls_maxhd/index.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Kantipur TV (1080p)
-https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Kantipur TV (1080p)
-https://ktvhdsg.ekantipur.com:8443/ktv_desktop_02347834/hd/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Mithila Nepal TV (1080p)
-http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR=&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",National Gold TV (720p) [Not 24/7]
-https://ythls.armelin.one/channel/UC1SeIQsJZSyo09PRq9zJz_w.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="News",News Nepal TV (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCjrSauhXmf4P1q1YLcrnetA.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Paryawaran TV (1080p)
-https://webtv-stream.nettv.com.np/broadcaster/Paryawaran.stream/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",RED Television (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCOAiQGUpfevEk5GEBDajayw.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="NP" tvg-logo="" group-title="Undefined",Sutra TV (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCAqc7EsDfuWb29hao5wN4nA.m3u8?checkedby:iptvcat.net
+#PLAYLIST:my-playlist
+# Built with the CODECS.COM Playlist Builder
+
+#EXTINF:-1 tvg-id="AngelTV.in@Nepal" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Nepal (720p)
+https://janya-digimix.akamaized.net/vglive-sk-109639/nepali/ngrp:angelnepali_all/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CapitalTVHD.np@SD" tvg-logo="https://i.imgur.com/hb4bq1t.png" group-title="General",Capital TV HD (1080p)
+https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8
+
+#EXTINF:-1 tvg-id="CapitalTVHD.np@HD" tvg-logo="https://i.imgur.com/hb4bq1t.png" group-title="General",Capital TV HD HD
+https://streaming.tvnepal.com:19360/capitaltv/720p.m3u8
+
+#EXTINF:-1 tvg-id="DivyaDarshanTV.np@SD" tvg-logo="https://i.ibb.co/WWn5gFnp/Divya-Darshan-TV-HD.png" group-title="Religious",Divya Darshan TV (720p)
+http://live.divyadarshantv.com/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="DivyaDarshanTV.np@HD" tvg-logo="https://i.ibb.co/WWn5gFnp/Divya-Darshan-TV-HD.png" group-title="Religious",Divya Darshan TV HD (1080p)
+https://live.divyadarshantv.com/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-id="IndigenousTelevision.np@SD" tvg-logo="https://i.ibb.co/2MByL1X/indigenous-television.png" group-title="General",Indigenous Television (720p)
+https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KantipurMax.np@SD" tvg-logo="https://i.imgur.com/EZUyzhG.jpg" group-title="Movies",Kantipur Max [Geo-blocked]
+https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KantipurTV.np@HD" tvg-logo="https://i.imgur.com/HEVo2Gc.png" group-title="General",Kantipur TV
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8
+
+#EXTINF:-1 tvg-id="KantipurTV.np@SD" tvg-logo="https://i.imgur.com/HEVo2Gc.png" group-title="General",Kantipur TV SD (1080p)
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MithilaNepalTV.np@SD" tvg-logo="https://i.ibb.co/CWn3fH9/1689333550464.jpg" group-title="General",Mithila Nepal TV (1080p)
+http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR=
+
+#EXTINF:-1 tvg-id="MTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png" group-title="Entertainment",like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Entertainment",MTV (India) (576p)
+https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
+
+#EXTINF:-1 tvg-id="Nepal1.in@SD" tvg-logo="https://i.ibb.co/bMZpdbYJ/Nepal-1.png" group-title="Entertainment",Nepal 1 (576p)
+https://mumt05.tangotv.in/87NeALx2NEPAL1/index.m3u8
+
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" group-title="Kids",Nick Jr. (India) (576p)
+http://103.185.24.134:3001/NICK-JR/index.m3u8
+
+#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Kids",Nickelodeon (India) (576p)
+http://103.185.24.134:3001/NICK/index.m3u8
+
+#EXTINF:-1 tvg-id="Public4KTV.np@HD" tvg-logo="https://i.imgur.com/JxEzgDP.png" group-title="Entertainment",Public 4K TV HD
+http://103.180.240.141:8080/hls/main1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RayTVHD.np@HD" tvg-logo="https://i.ibb.co/HpXHd5bQ/Ray-TV-HD.png" group-title="Entertainment;General",Ray TV HD
+https://streaming.tvnepal.com:19360/raynewsdaily/720p.m3u8
+
+#EXTINF:-1 tvg-id="RayTVHD.np@SD" tvg-logo="https://i.ibb.co/HpXHd5bQ/Ray-TV-HD.png" group-title="Entertainment;General",Ray TV HD SD (576p)
+https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8
+
+#EXTINF:-1 tvg-id="Sonic.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Kids",Sonic (576p)
+http://103.185.24.134:3001/SONIC/index.m3u8
+
+#EXTINF:-1 tvg-id="TVTodayJanakpur.np@SD" tvg-logo="https://i.imgur.com/5fZF69m.png" group-title="Entertainment;General",TV Today Janakpur
+https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8
+
+#EXTINF:-1 tvg-id="YRFMusic.in@Nepal" tvg-logo="https://i.imgur.com/mxx05Z9.png" group-title="Music",YRF Music Nepal
+https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8
+
+#EXTINF:-1 tvg-id="Zoom.in@Nepal" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZOOM/images/LOGO_HD/image.png" group-title="Music",Zoom (India) Nepal (720p)
+https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+
